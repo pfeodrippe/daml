@@ -12,5 +12,5 @@ object Versions {
   }
 
   private def sdkVersionFromSysProps(): Option[String] =
-    sys.props.get("DA.sdkVersion").map(_.toString)
+    sys.props.get("DA.sdkVersion")
 }
