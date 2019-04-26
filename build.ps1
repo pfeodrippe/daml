@@ -47,7 +47,29 @@ function build-partial() {
     ls C:\\users\\vssadministrator\\_bazel_vssadministrator\\w3d6ug6o\\execroot\\com_github_digital_asset_daml\\external\\io_tweag_rules_haskell_ghc_windows_amd64\\mingw\\bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include/c++/7.2.0/bits/stl_raw_storage_iter.h
 
     write-output "----- 4"
-    bazel build -s @boringssl//:ssl
+    try { bazel build -s @boringssl//:ssl } catch {
+        write-output "ERROR: bazel build @boringssl//:ssl - failed!"
+    }
+
+    cd C:/users/vssadministrator/_bazel_vssadministrator/w3d6ug6o/execroot/com_github_digital_asset_daml
+
+    write-output "----- 6"
+    $env:PATH
+
+    write-output "----- 7"
+    ./external/io_tweag_rules_haskell_ghc_windows_amd64/mingw/bin/gcc -std=gnu++0x -MD -MF bazel-out/x64_windows-fastbuild/bin/external/boringssl/_objs/ssl/ssl_session.d -frandom-seed=bazel-out/x64_windows-fastbuild/bin/external/boringssl/_objs/ssl/ssl_session.o -iquote external/boringssl -iquote bazel-out/x64_windows-fastbuild/genfiles/external/boringssl -iquote bazel-out/x64_windows-fastbuild/bin/external/boringssl -isystem external/boringssl/src/include -isystem bazel-out/x64_windows-fastbuild/genfiles/external/boringssl/src/include -isystem bazel-out/x64_windows-fastbuild/bin/external/boringssl/src/include -DGRPC_BAZEL_BUILD -DWIN32_LEAN_AND_MEAN -DOPENSSL_NO_ASM -no-canonical-prefixes -fno-canonical-system-headers -c external/boringssl/src/ssl/ssl_session.cc -o bazel-out/x64_windows-fastbuild/bin/external/boringssl/_objs/ssl/ssl_session.o
+
+    write-output "----- 8"
+    ls ./bazel-out/x64_windows-fastbuild/bin/external/boringssl/_objs/ssl/ssl_session.o
+
+    write-output "----- 9"
+    $env:PATH='C:\Users\VssAdministrator\dadew\scoop\apps\msys2-20180531\current\usr\bin;C:\Users\VssAdministrator\dadew\scoop\apps\msys2-20180531\current\bin'
+
+    write-output "----- 10"
+    ./external/io_tweag_rules_haskell_ghc_windows_amd64/mingw/bin/gcc -std=gnu++0x -MD -MF bazel-out/x64_windows-fastbuild/bin/external/boringssl/_objs/ssl/ssl_session.d -frandom-seed=bazel-out/x64_windows-fastbuild/bin/external/boringssl/_objs/ssl/ssl_session.o -iquote external/boringssl -iquote bazel-out/x64_windows-fastbuild/genfiles/external/boringssl -iquote bazel-out/x64_windows-fastbuild/bin/external/boringssl -isystem external/boringssl/src/include -isystem bazel-out/x64_windows-fastbuild/genfiles/external/boringssl/src/include -isystem bazel-out/x64_windows-fastbuild/bin/external/boringssl/src/include -DGRPC_BAZEL_BUILD -DWIN32_LEAN_AND_MEAN -DOPENSSL_NO_ASM -no-canonical-prefixes -fno-canonical-system-headers -c external/boringssl/src/ssl/ssl_session.cc -o bazel-out/x64_windows-fastbuild/bin/external/boringssl/_objs/ssl/ssl_session.o
+
+    write-output "----- 11"
+    ls ./bazel-out/x64_windows-fastbuild/bin/external/boringssl/_objs/ssl/ssl_session.o
 
     bazel shutdown
 }
