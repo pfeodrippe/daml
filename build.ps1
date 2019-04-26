@@ -28,16 +28,25 @@ function bazel() {
 }
 
 function build-partial() {
+    bazel clean `-`-expunge
+
     bazel build @io_tweag_rules_haskell_ghc_windows_amd64//:toolchain
 
     bazel shutdown
 
+    write-output "----- 1"
+    write-output "ls C:\\users\\vssadministrator\\_bazel_vssadministrator\\w3d6ug6o\\execroot\\com_github_digital_asset_daml\\external\\io_tweag_rules_haskell_ghc_windows_amd64\\"
     ls C:\\users\\vssadministrator\\_bazel_vssadministrator\\w3d6ug6o\\execroot\\com_github_digital_asset_daml\\external\\io_tweag_rules_haskell_ghc_windows_amd64\\
 
+    write-output "----- 2"
+    write-output "ls C:\\users\\vssadministrator\\_bazel_vssadministrator\\w3d6ug6o\\execroot\\com_github_digital_asset_daml\\external\\io_tweag_rules_haskell_ghc_windows_amd64\\mingw\\include\\c++\\7.2.0\\bits\\stl_raw_storage_iter.h"
     ls C:\\users\\vssadministrator\\_bazel_vssadministrator\\w3d6ug6o\\execroot\\com_github_digital_asset_daml\\external\\io_tweag_rules_haskell_ghc_windows_amd64\\mingw\\include\\c++\\7.2.0\\bits\\stl_raw_storage_iter.h
 
+    write-output "----- 3"
+    write-output "ls C:\\users\\vssadministrator\\_bazel_vssadministrator\\w3d6ug6o\\execroot\\com_github_digital_asset_daml\\external\\io_tweag_rules_haskell_ghc_windows_amd64\\mingw\\bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include/c++/7.2.0/bits/stl_raw_storage_iter.h"
     ls C:\\users\\vssadministrator\\_bazel_vssadministrator\\w3d6ug6o\\execroot\\com_github_digital_asset_daml\\external\\io_tweag_rules_haskell_ghc_windows_amd64\\mingw\\bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include/c++/7.2.0/bits/stl_raw_storage_iter.h
 
+    write-output "----- 4"
     bazel build -s @boringssl//:ssl
 
     bazel shutdown
