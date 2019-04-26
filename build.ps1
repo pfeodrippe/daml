@@ -23,8 +23,8 @@ write-output "(before) ls C:\Program Files (x86)\Microsoft Visual Studio 14.0\Co
 ls "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\"
 Remove-Item "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\" -Recurse -Force -ErrorAction Ignore
 
-write-output "(after) ls C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\"
-ls "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\"
+write-output "(after) ls C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\"
+ls "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\"
 
 if (!(Test-Path .\.bazelrc.local)) {
    Set-Content -Path .\.bazelrc.local -Value 'build --config windows'
