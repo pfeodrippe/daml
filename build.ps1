@@ -17,6 +17,14 @@ write-output "ENV: `n`n"
 gci env:* | sort-object name
 
 $env:BAZEL_VC='c:\'
+$env:VS140COMNTOOLS=$null
+
+write-output "(before) ls C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\"
+ls "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\"
+Remove-Item "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\" -Recurse -Force -ErrorAction Ignore
+
+write-output "(after) ls C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\"
+ls "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\"
 
 if (!(Test-Path .\.bazelrc.local)) {
    Set-Content -Path .\.bazelrc.local -Value 'build --config windows'
