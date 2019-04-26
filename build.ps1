@@ -7,6 +7,12 @@ $ErrorActionPreference = 'Stop'
 .\dev-env\windows\bin\dadew.ps1 sync
 .\dev-env\windows\bin\dadew.ps1 enable
 
+write-output "Path before: `n`t ${env:PATH}"
+
+$env:Path='C:\Users\VssAdministrator\dadew\scoop\apps\msys2-20180531\current;D:\a\1\s\dev-env\windows\libexec\..\bin;C:\Users\VssAdministrator\dadew\scoop\shims'
+
+write-output "Path after: `n`t ${env:PATH}"
+
 if (!(Test-Path .\.bazelrc.local)) {
    Set-Content -Path .\.bazelrc.local -Value 'build --config windows'
 }
@@ -60,15 +66,6 @@ function build-partial() {
     ./external/io_tweag_rules_haskell_ghc_windows_amd64/mingw/bin/gcc `-std=gnu++0x `-MD `-MF bazel-out/x64_windows-fastbuild/bin/external/boringssl/_objs/ssl/ssl_session.d `-frandom-seed=bazel-out/x64_windows-fastbuild/bin/external/boringssl/_objs/ssl/ssl_session.o `-iquote external/boringssl `-iquote bazel-out/x64_windows-fastbuild/genfiles/external/boringssl `-iquote bazel-out/x64_windows-fastbuild/bin/external/boringssl `-isystem external/boringssl/src/include `-isystem bazel-out/x64_windows-fastbuild/genfiles/external/boringssl/src/include `-isystem bazel-out/x64_windows-fastbuild/bin/external/boringssl/src/include `-DGRPC_BAZEL_BUILD `-DWIN32_LEAN_AND_MEAN `-DOPENSSL_NO_ASM `-no-canonical-prefixes `-fno-canonical-system-headers `-c external/boringssl/src/ssl/ssl_session.cc `-o bazel-out/x64_windows-fastbuild/bin/external/boringssl/_objs/ssl/ssl_session.o
 
     write-output "----- 8"
-    ls ./bazel-out/x64_windows-fastbuild/bin/external/boringssl/_objs/ssl/ssl_session.o
-
-    write-output "----- 9"
-    $env:PATH='C:\Users\VssAdministrator\dadew\scoop\apps\msys2-20180531\current\usr\bin;C:\Users\VssAdministrator\dadew\scoop\apps\msys2-20180531\current\bin'
-
-    write-output "----- 10"
-    ./external/io_tweag_rules_haskell_ghc_windows_amd64/mingw/bin/gcc `-std=gnu++0x `-MD `-MF bazel-out/x64_windows-fastbuild/bin/external/boringssl/_objs/ssl/ssl_session.d `-frandom-seed=bazel-out/x64_windows-fastbuild/bin/external/boringssl/_objs/ssl/ssl_session.o `-iquote external/boringssl `-iquote bazel-out/x64_windows-fastbuild/genfiles/external/boringssl `-iquote bazel-out/x64_windows-fastbuild/bin/external/boringssl `-isystem external/boringssl/src/include `-isystem bazel-out/x64_windows-fastbuild/genfiles/external/boringssl/src/include `-isystem bazel-out/x64_windows-fastbuild/bin/external/boringssl/src/include `-DGRPC_BAZEL_BUILD `-DWIN32_LEAN_AND_MEAN `-DOPENSSL_NO_ASM `-no-canonical-prefixes `-fno-canonical-system-headers `-c external/boringssl/src/ssl/ssl_session.cc `-o bazel-out/x64_windows-fastbuild/bin/external/boringssl/_objs/ssl/ssl_session.o
-
-    write-output "----- 11"
     ls ./bazel-out/x64_windows-fastbuild/bin/external/boringssl/_objs/ssl/ssl_session.o
 
     bazel shutdown
