@@ -28,21 +28,19 @@ function bazel() {
 }
 
 function build-partial() {
-    bazel build `-`-experimental_execution_log_file ${ARTIFACT_DIRS}/build_partial_execution_windows.log `
-        //:git-revision `
-        //compiler/daml-lf-ast/... `
-        //compiler/haskell-ide-core/... `
-        //daml-lf/interface/... `
-        //language-support/java/bindings/... `
-        //navigator/backend/... `
-        //navigator/frontend/...
+    bazel build @io_tweag_rules_haskell_ghc_windows_amd64//:toolchain
 
     bazel shutdown
 
-    bazel test `
-        //daml-lf/interface/... `
-        //language-support/java/bindings/... `
-        //navigator/backend/...
+    ls C:\\users\\vssadministrator\\_bazel_vssadministrator\\w3d6ug6o\\execroot\\com_github_digital_asset_daml\\external\\io_tweag_rules_haskell_ghc_windows_amd64\\
+
+    ls C:\\users\\vssadministrator\\_bazel_vssadministrator\\w3d6ug6o\\execroot\\com_github_digital_asset_daml\\external\\io_tweag_rules_haskell_ghc_windows_amd64\\mingw\\include\\c++\\7.2.0\\bits\\stl_raw_storage_iter.h
+
+    ls C:\\users\\vssadministrator\\_bazel_vssadministrator\\w3d6ug6o\\execroot\\com_github_digital_asset_daml\\external\\io_tweag_rules_haskell_ghc_windows_amd64\\mingw\\bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include/c++/7.2.0/bits/stl_raw_storage_iter.h
+
+    bazel build -s @boringssl//:ssl
+
+    bazel shutdown
 }
 
 function build-full() {
