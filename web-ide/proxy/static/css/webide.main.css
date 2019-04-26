@@ -1,0 +1,101 @@
+/* Copyright (c) 2019 Digital Asset (Switzerland) GmbH and/or its affiliates. All rights reserved.  */
+/* SPDX-License-Identifier: Apache-2.0  */
+
+/************************** swap microsoft trademark image ********************************************/
+.monaco-workbench .part.titlebar > div.window-appicon {
+    width: 35px;
+    height: 100%;
+    position: relative;
+    z-index: 3000;
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSIxNzNweCIgaGVpZ2h0PSI0N3B4IiB2aWV3Qm94PSIwIDAgMTczIDQ3IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAxNzMgNDciIHhtbDpzcGFjZT0icHJlc2VydmUiPiAgPGltYWdlIGlkPSJpbWFnZTAiIHdpZHRoPSIxNzMiIGhlaWdodD0iNDciIHg9IjAiIHk9IjAiCiAgICB4bGluazpocmVmPSJkYXRhOmltYWdlL3BuZztiYXNlNjQsaVZCT1J3MEtHZ29BQUFBTlNVaEVVZ0FBQUswQUFBQXZDQVlBQUFDUjEwcVFBQUFBQkdkQlRVRUFBTEdQQy94aEJRQUFBQ0JqU0ZKTgpBQUI2SmdBQWdJUUFBUG9BQUFDQTZBQUFkVEFBQU9wZ0FBQTZtQUFBRjNDY3VsRThBQUFBQm1KTFIwUUEvd0QvQVArZ3ZhZVRBQUFKCjBFbEVRVlI0MnQyZGZaQlhWUm5IUDg4dUN5Z29MMkVOS0toSTh1S013a0Job3E0cHVoSXYrNnVjeXV4bElhZWFKaHVyc2Zvam01cnEKcnliRnBobXJxUnlMRXJLSjM0ckNyS1VnWmlncEVKUU9BU2tDdXUvTHk4WXUrOW9mWnkrc3Yvbjk3bm5PL2QxN3o5MCsvN0Q4N25QUAp1ZmZzZDg4KzV6blBlVmF1cTNsd0l2QXQ0cUVUK0M5d0dEZ0kvQnZvanFsdEZUVnI3aTE1YmYrQk4rWURFd0FRRU9UY1JXSG9mMEpmClg5L1J1Yk5uSHFwL2Fpc2ljdFpXQktyZTJsM3VJOTRFM081ZzN3MThEeGhNY05qdUFTNTJzTThETDVhNE5oYjRycktkRjRmYWNtSVUKY0NId3pZUUdvd2ZZQ1d3RkhnZjJKZFNQaHFwWk0yZnNxS3lzR0dzejNMTnYvMTdnbWtMQmlvaWlHeXZYNGo3ZWZ3SCttdEM0WEF3OApDRlE2M0hPWTBxSWQ0L0IrRHhOQnRCVUpEVVRBYU9CNjRINWdML0F5OEJuTUQwdmFWR3NFMno4d3dMRzNtdVkrc1huYnBBUUVHNVhQCkpkajJaM0VUckhlU0ZtMGhDNEZIZ2RlQU8xTHV1MVpqMU5MU1RuLy9RQlhDOGtMQmVoVHVIY0FGQ2JRclFKMnZsNHBLMnFJTm1JVngKRjU3RXpaZUtpZ0E1aldGalUxdmdFdVFLQmV0eHNoMFBmQ3lCZHBjQTcvWDJWaEh4SmRxQTVjQnU0TGFFKzFrRVhHSXpHaHdjcExHbApOWEFKYWtUa1BEZ24ySGNzM05KbmRRSnQxdmw4b2FqNEZpM0FSY0Jta3ZtbUJPUTBSdTBkSitqdDZRdGNndkhBcmU4UXJGKy9kZ2t3Ck84YjJ4cEhNN0owNFdSQXRtSVhBcjREUEo5VCtoelZHalUxdGhUNXNicmhnL1dvV2dEVXh0dlZSa3ZHVEV5Y3JvZ1hqZC80TU01aHgKTWh1WXF6RnNhbTR0OUdGWENsSVpDTlp6QkFIZzA4UVhlVW55TjF1aXVBN0FJV0JYa2M4Rm1BaThHNWlEQ1hWRlFURFJoWDJZallrNAp5R21NVHA3c3BLdjdqSG1JY3k3QkZFUnVFR0diaVBGb2s0endLNWdLTEFNMmxkbk81VUMxMzFlSmpxdG9ud2ErWkxFWkMxd0gzQVhjCkNaem4yTWM0WUIzR2grdU40UjExcmtGekcxQ3c2REpmMTRySU5pRVRNeTBZRjZGYzBkYUIzMVZsT1NUaEhuUUR6MklDNGxkZ2ZGWFgKQ2VwOW1LM0ZjcGsyMUphVndEVW85R0ZGSkhkV3NOa1E3WExNYjdTb1ZHQTJlRVlzU2Z1MGJ3TjNBeXVBRHNkNzd3ZW1sTm4vS3MwNwpudTdxNWxUbjZXS0NSZUF5RVZtUWtZVVlRQlhHdDQzS0I0SExmTDlFT2FTMUVOdU1TUlJwY2Jobkl2QzFNdnRWdVFaTnpXMmxCQnZNCnNMa014R21IVTg0aUtzNEloQmZTakI3c3hZaW94K0dlTCtMdUV3ZE13TXdxVnBwYjJzSUVpd2c1cytHUUdkRmVoVW04aVRJbXFoL2sKTEpOMnlPc0ZUSnFkbGtuQXlvaDlyY0Q4S2cybHA2ZVg0OGRQaFFrV1FhNFdrU3V5bzFrZzJtN1dKNGcrQ1dRR0gzSGFIMkZ5YmJWRQozYlhKYVl6YTJvOTNERUtZWUlNRldpNURNeTJZeU16NWp2ZlUrWDdvT1BDUkl0Z0wvQkI0UkdsZk0vU2NmWTc5dkFuOHdtYlUzTnBSCkpjSnFpMkFSa1ZvUitiR0g4U3JGaFppTm1OOHE3ZWNTemFYSUhENUVDN0FCZUFnejhEYkdBL014dWJndWZGMWoxTmpVc2xCRVZsc0UKaTRnc3dZU2FtbE1hbzFQQWNXQjZpTTBhOUtLdHMxeC9GWmlYMHJ1VmhTL1JkZ0ZiZ0k4cjdSZWhGRzNEcjllR1hoK1l2ckJ3MGJWTAo0RTBSbVJFaVdJQUtFVmtGL0RLbE1Sb0ExZ1AzaGRoVUF6T0IvMWphR29VOVRMWUJ0L1dHTjN6bUhteDNzSjBWVjZkRm9nU0RJbEp2CkVXendkZG9yYjlzc0t1akNYeldZTGVBd2ZwL3l1MFhHcDJoZHpvdGRHbHV2eGFNRWVZVmdFZUdXQzY2cVRqTXphcDlpbk9xd2Z4L3IKTE5kZndXMXg3Qldmb2ozcVlEc3VyazVMUkFtMkM5SnVFU3dpTWthUVpTbVBrMjIydlFTNE5lVDZ1ekE3ZzJHTW1Ga1cvSXEyMzhFMgp0dG10UkpTZ1QwUTJXUVFibkdqSXBUeE82ekgrYlJoaHUxeDNFWjUxTjRBNStqUmk4Q2xhbDc0NzQrbzBKRXFRVndnV1JENDA4ZXFiCm82WmVSdUVJOEp6RnBoWXpveGJEdG0zNy9GQWZJd2Fmb25VNTBIZzZyazVEd2xvTkluSTZzQ2toV0VSa2dpaTNoMlBrZDViclk0QlAKRnZsOEFYQ041ZDROS2I5TDJmZ1U3UndIMi9obWd0SlJnaTdnYVl0Z2c1azY3U2pDSDdGWDZpazJvOW9pQzcyTU1OY0EvSXJXSlhNKwp0cFd0SlVxUVZ3Z1dFVlpOV2JBMHpiRTdnVGx1SDhaOHpNd2FNSnJpcys5d25nRmFVM3lQV1BBbDJ0R1laR1l0dXh4c1E3R0V0VGFKCjBHY1JMQ0l5RldSeHltTzJUbUV6dkJMTktrcjd1UUdQcGZ3T3NlQkx0QjhCSml0dHV6Rnh4RmpvUGJTRG5vTi9LeFVsYUJlUjdSYkIKZ3JtZXRvdXdCV2kzMk55Sk9lNEU5dGhzTnhIcWFHVUJIOXU0bGNDM0hleTNBV2NzTmhlaGp6WGVEUndPaVJMa1JialpJbGhFcEJiNApSb3JqMW9QeFA3OFFZak1aazkzMkhHWVhMSXduZ1pNcFBuOXMrQkR0VnpCSnpGbzBDNFdWd0ZLRjNURk05aGRRTWtxUVIrUWhrU0dKCkZoY3NJbkxsZXhiVnpHdDZ1ZUhWRk1kdUhlR2lCYlA0bW9IOWV6dmlvZ1lCYWJzSGl6QnBpVm82Z1Q4cDdITEs5dklNSGJJTWlSSWMKRVpGWExJSmxxSTIwWFlRWGdOY3ROa3VCTDF0c1RtSmYyR1dXTkVWN0pWQ1BXK2I4STVqMHZEREdFNzZOT1p4ODhJVWxTbEN2RUt5UAozYkZCN0c1UUJlSHBqR0MrRDZrV3U0NlR0RVI3STJiblpackRQZDNBQXdxNzJ6bTMrQWlqZzJFN1M1YXcxa2FGWUJGazRiVEZ5MndDCmlSdmJSb09HRVJrMUNFaGF0Sk13VmFhZnhmMnMvaytBTnhSMnFycXptRitIWjR0L1dNSmEveEtSQXhiQm1zc2l1WVRIc0pEWEtDK2EKMG9xcExENWlTVUswbFpnQ0dROWdrcFB2eGIzUzlDSGcrd3E3S3N3QlJnMzF3LytqQ0d2bExZSU43c3NsTUlZMnlwbHRIeWVleWozZQpjSTBlVkFNL0wvTDVHRXo2NEhUTTl1eUVNcDZwSDVObHIwbVN1UWxUSDhGR0Y5QXcvQU5GSEhhamlOeG5FU3lJM0REOUE4c25IOW54CmxDMkdHaWVQWVE2SVJpazduNldvUVNrOWhiSFRWYlR6U1A0YzBUM0FEcVZ0VG1uM1p3cC9DT3h4MkpkRTVHMWdhb2hnRWFnU2tSWEEKYnhJZWwrRTBZclpnWFl0Ukg4V3NMYkpDRkQyTnoxS3BUNEFmWVA3aWlRWjFTWHFLN1B4WUJJdUlEQUJQV0FRN2xEWG14VVhRYk9zVwo4Z2ZzdWJtWkowdWkvUTZtZnBlVzk2T0xSdlJUcE1xZ01nNmJWd2dXUVdvdXZYNWwya1V3OHJpbmJJN29xRUZBRmtSN0d2Z1V1b1hYCmNMU0IvZWNwa3Nta2pNTnVGZVNFUmJBZ25DK0liZHMwYms3aGxqdHdFUGRqK0puRXQyai9EaXdtMm1vNHA3U3JML2FoTWc1N0JtR0wKUmJEQnY5cm5pUk9YczEwajZoeFlHTDVFMjRRcHpud3Q4TThJOTg5Qi8wY3o4c1UrVkFnMmNBazJLZ1NMd01yTGI2eE4rNC9JTmFBdgpIcEtscUVGWnBDM2ExNEd2WWdwTVBFejBSWUhXTmRoTnlRMEtsV0FSMklMSUdZdGdRV1N5bUoyL05PbkRMSzVzL0FOVFFlYi9nalJFCnV4LzRLWEFMcHVqR1dzby84NVZUMnVWTFhWQUtGa1JPQ1R4akVXeFF1VmI3WEhHaWlTS3M5L0JjaVRFS0U3KzBGbXBUMG9ISkdUZ0cKSE1EVXBJMDc2RDRHTTRQdVVkaVdYQzByQlJ1NEJHc1JqbG9FaTRpMEtaNXBEN3J4N2xLT3gwdVlyZkt3MmhEYU5ZTldCMkd6ZG85RApPMUhZK1QvajVyb20wUFdsR3dBQUFDVjBSVmgwWkdGMFpUcGpjbVZoZEdVQU1qQXhPUzB3TkMweU5WUXlNem94TURvek5Dc3dNem93Ck1HWkFwb0VBQUFBbGRFVllkR1JoZEdVNmJXOWthV1o1QURJd01Ua3RNRFF0TWpWVU1qTTZNVEE2TXpRck1ETTZNREFYSFI0OUFBQUEKR1hSRldIUlRiMlowZDJGeVpRQkJaRzlpWlNCSmJXRm5aVkpsWVdSNWNjbGxQQUFBQUFCSlJVNUVya0pnZ2c9PSIgLz4KPC9zdmc+) !important;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 16px;
+    flex-shrink: 0; }
+  
+div.window-appicon {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSIxNzNweCIgaGVpZ2h0PSI0N3B4IiB2aWV3Qm94PSIwIDAgMTczIDQ3IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAxNzMgNDciIHhtbDpzcGFjZT0icHJlc2VydmUiPiAgPGltYWdlIGlkPSJpbWFnZTAiIHdpZHRoPSIxNzMiIGhlaWdodD0iNDciIHg9IjAiIHk9IjAiCiAgICB4bGluazpocmVmPSJkYXRhOmltYWdlL3BuZztiYXNlNjQsaVZCT1J3MEtHZ29BQUFBTlNVaEVVZ0FBQUswQUFBQXZDQVlBQUFDUjEwcVFBQUFBQkdkQlRVRUFBTEdQQy94aEJRQUFBQ0JqU0ZKTgpBQUI2SmdBQWdJUUFBUG9BQUFDQTZBQUFkVEFBQU9wZ0FBQTZtQUFBRjNDY3VsRThBQUFBQm1KTFIwUUEvd0QvQVArZ3ZhZVRBQUFKCjBFbEVRVlI0MnQyZGZaQlhWUm5IUDg4dUN5Z29MMkVOS0toSTh1S013a0Job3E0cHVoSXYrNnVjeXV4bElhZWFKaHVyc2Zvam01cnEKcnliRnBobXJxUnlMRXJLSjM0ckNyS1VnWmlncEVKUU9BU2tDdXUvTHk4WXUrOW9mWnkrc3Yvbjk3bm5PL2QxN3o5MCsvN0Q4N25QUAp1ZmZzZDg4KzV6blBlVmF1cTNsd0l2QXQ0cUVUK0M5d0dEZ0kvQnZvanFsdEZUVnI3aTE1YmYrQk4rWURFd0FRRU9UY1JXSG9mMEpmClg5L1J1Yk5uSHFwL2Fpc2ljdFpXQktyZTJsM3VJOTRFM081ZzN3MThEeGhNY05qdUFTNTJzTThETDVhNE5oYjRycktkRjRmYWNtSVUKY0NId3pZUUdvd2ZZQ1d3RkhnZjJKZFNQaHFwWk0yZnNxS3lzR0dzejNMTnYvMTdnbWtMQmlvaWlHeXZYNGo3ZWZ3SCttdEM0WEF3OApDRlE2M0hPWTBxSWQ0L0IrRHhOQnRCVUpEVVRBYU9CNjRINWdML0F5OEJuTUQwdmFWR3NFMno4d3dMRzNtdVkrc1huYnBBUUVHNVhQCkpkajJaM0VUckhlU0ZtMGhDNEZIZ2RlQU8xTHV1MVpqMU5MU1RuLy9RQlhDOGtMQmVoVHVIY0FGQ2JRclFKMnZsNHBLMnFJTm1JVngKRjU3RXpaZUtpZ0E1aldGalUxdmdFdVFLQmV0eHNoMFBmQ3lCZHBjQTcvWDJWaEh4SmRxQTVjQnU0TGFFKzFrRVhHSXpHaHdjcExHbApOWEFKYWtUa1BEZ24ySGNzM05KbmRRSnQxdmw4b2FqNEZpM0FSY0Jta3ZtbUJPUTBSdTBkSitqdDZRdGNndkhBcmU4UXJGKy9kZ2t3Ck84YjJ4cEhNN0owNFdSQXRtSVhBcjREUEo5VCtoelZHalUxdGhUNXNicmhnL1dvV2dEVXh0dlZSa3ZHVEV5Y3JvZ1hqZC80TU01aHgKTWh1WXF6RnNhbTR0OUdGWENsSVpDTlp6QkFIZzA4UVhlVW55TjF1aXVBN0FJV0JYa2M4Rm1BaThHNWlEQ1hWRlFURFJoWDJZallrNAp5R21NVHA3c3BLdjdqSG1JY3k3QkZFUnVFR0diaVBGb2s0endLNWdLTEFNMmxkbk81VUMxMzFlSmpxdG9ud2ErWkxFWkMxd0gzQVhjCkNaem4yTWM0WUIzR2grdU40UjExcmtGekcxQ3c2REpmMTRySU5pRVRNeTBZRjZGYzBkYUIzMVZsT1NUaEhuUUR6MklDNGxkZ2ZGWFgKQ2VwOW1LM0ZjcGsyMUphVndEVW85R0ZGSkhkV3NOa1E3WExNYjdTb1ZHQTJlRVlzU2Z1MGJ3TjNBeXVBRHNkNzd3ZW1sTm4vS3MwNwpudTdxNWxUbjZXS0NSZUF5RVZtUWtZVVlRQlhHdDQzS0I0SExmTDlFT2FTMUVOdU1TUlJwY2Jobkl2QzFNdnRWdVFaTnpXMmxCQnZNCnNMa014R21IVTg0aUtzNEloQmZTakI3c3hZaW94K0dlTCtMdUV3ZE13TXdxVnBwYjJzSUVpd2c1cytHUUdkRmVoVW04aVRJbXFoL2sKTEpOMnlPc0ZUSnFkbGtuQXlvaDlyY0Q4S2cybHA2ZVg0OGRQaFFrV1FhNFdrU3V5bzFrZzJtN1dKNGcrQ1dRR0gzSGFIMkZ5YmJWRQozYlhKYVl6YTJvOTNERUtZWUlNRldpNURNeTJZeU16NWp2ZlUrWDdvT1BDUkl0Z0wvQkI0UkdsZk0vU2NmWTc5dkFuOHdtYlUzTnBSCkpjSnFpMkFSa1ZvUitiR0g4U3JGaFppTm1OOHE3ZWNTemFYSUhENUVDN0FCZUFnejhEYkdBL014dWJndWZGMWoxTmpVc2xCRVZsc0UKaTRnc3dZU2FtbE1hbzFQQWNXQjZpTTBhOUtLdHMxeC9GWmlYMHJ1VmhTL1JkZ0ZiZ0k4cjdSZWhGRzNEcjllR1hoK1l2ckJ3MGJWTAo0RTBSbVJFaVdJQUtFVmtGL0RLbE1Sb0ExZ1AzaGRoVUF6T0IvMWphR29VOVRMWUJ0L1dHTjN6bUhteDNzSjBWVjZkRm9nU0RJbEp2CkVXendkZG9yYjlzc0t1akNYeldZTGVBd2ZwL3l1MFhHcDJoZHpvdGRHbHV2eGFNRWVZVmdFZUdXQzY2cVRqTXphcDlpbk9xd2Z4L3IKTE5kZndXMXg3Qldmb2ozcVlEc3VyazVMUkFtMkM5SnVFU3dpTWthUVpTbVBrMjIydlFTNE5lVDZ1ekE3ZzJHTW1Ga1cvSXEyMzhFMgp0dG10UkpTZ1QwUTJXUVFibkdqSXBUeE82ekgrYlJoaHUxeDNFWjUxTjRBNStqUmk4Q2xhbDc0NzQrbzBKRXFRVndnV1JENDA4ZXFiCm82WmVSdUVJOEp6RnBoWXpveGJEdG0zNy9GQWZJd2Fmb25VNTBIZzZyazVEd2xvTkluSTZzQ2toV0VSa2dpaTNoMlBrZDViclk0QlAKRnZsOEFYQ041ZDROS2I5TDJmZ1U3UndIMi9obWd0SlJnaTdnYVl0Z2c1azY3U2pDSDdGWDZpazJvOW9pQzcyTU1OY0EvSXJXSlhNKwp0cFd0SlVxUVZ3Z1dFVlpOV2JBMHpiRTdnVGx1SDhaOHpNd2FNSnJpcys5d25nRmFVM3lQV1BBbDJ0R1laR1l0dXh4c1E3R0V0VGFKCjBHY1JMQ0l5RldSeHltTzJUbUV6dkJMTktrcjd1UUdQcGZ3T3NlQkx0QjhCSml0dHV6Rnh4RmpvUGJTRG5vTi9LeFVsYUJlUjdSYkIKZ3JtZXRvdXdCV2kzMk55Sk9lNEU5dGhzTnhIcWFHVUJIOXU0bGNDM0hleTNBV2NzTmhlaGp6WGVEUndPaVJMa1JialpJbGhFcEJiNApSb3JqMW9QeFA3OFFZak1aazkzMkhHWVhMSXduZ1pNcFBuOXMrQkR0VnpCSnpGbzBDNFdWd0ZLRjNURk05aGRRTWtxUVIrUWhrU0dKCkZoY3NJbkxsZXhiVnpHdDZ1ZUhWRk1kdUhlR2lCYlA0bW9IOWV6dmlvZ1lCYWJzSGl6QnBpVm82Z1Q4cDdITEs5dklNSGJJTWlSSWMKRVpGWExJSmxxSTIwWFlRWGdOY3ROa3VCTDF0c1RtSmYyR1dXTkVWN0pWQ1BXK2I4STVqMHZEREdFNzZOT1p4ODhJVWxTbEN2RUt5UAozYkZCN0c1UUJlSHBqR0MrRDZrV3U0NlR0RVI3STJiblpackRQZDNBQXdxNzJ6bTMrQWlqZzJFN1M1YXcxa2FGWUJGazRiVEZ5MndDCmlSdmJSb09HRVJrMUNFaGF0Sk13VmFhZnhmMnMvaytBTnhSMnFycXptRitIWjR0L1dNSmEveEtSQXhiQm1zc2l1WVRIc0pEWEtDK2EKMG9xcExENWlTVUswbFpnQ0dROWdrcFB2eGIzUzlDSGcrd3E3S3N3QlJnMzF3LytqQ0d2bExZSU43c3NsTUlZMnlwbHRIeWVleWozZQpjSTBlVkFNL0wvTDVHRXo2NEhUTTl1eUVNcDZwSDVObHIwbVN1UWxUSDhGR0Y5QXcvQU5GSEhhamlOeG5FU3lJM0REOUE4c25IOW54CmxDMkdHaWVQWVE2SVJpazduNldvUVNrOWhiSFRWYlR6U1A0YzBUM0FEcVZ0VG1uM1p3cC9DT3h4MkpkRTVHMWdhb2hnRWFnU2tSWEEKYnhJZWwrRTBZclpnWFl0Ukg4V3NMYkpDRkQyTnoxS3BUNEFmWVA3aWlRWjFTWHFLN1B4WUJJdUlEQUJQV0FRN2xEWG14VVhRYk9zVwo4Z2ZzdWJtWkowdWkvUTZtZnBlVzk2T0xSdlJUcE1xZ01nNmJWd2dXUVdvdXZYNWwya1V3OHJpbmJJN29xRUZBRmtSN0d2Z1V1b1hYCmNMU0IvZWNwa3Nta2pNTnVGZVNFUmJBZ25DK0liZHMwYms3aGxqdHdFUGRqK0puRXQyai9EaXdtMm1vNHA3U3JML2FoTWc1N0JtR0wKUmJEQnY5cm5pUk9YczEwajZoeFlHTDVFMjRRcHpud3Q4TThJOTg5Qi8wY3o4c1UrVkFnMmNBazJLZ1NMd01yTGI2eE4rNC9JTmFBdgpIcEtscUVGWnBDM2ExNEd2WWdwTVBFejBSWUhXTmRoTnlRMEtsV0FSMklMSUdZdGdRV1N5bUoyL05PbkRMSzVzL0FOVFFlYi9nalJFCnV4LzRLWEFMcHVqR1dzby84NVZUMnVWTFhWQUtGa1JPQ1R4akVXeFF1VmI3WEhHaWlTS3M5L0JjaVRFS0U3KzBGbXBUMG9ISkdUZ0cKSE1EVXBJMDc2RDRHTTRQdVVkaVdYQzByQlJ1NEJHc1JqbG9FaTRpMEtaNXBEN3J4N2xLT3gwdVlyZkt3MmhEYU5ZTldCMkd6ZG85RApPMUhZK1QvajVyb20wUFdsR3dBQUFDVjBSVmgwWkdGMFpUcGpjbVZoZEdVQU1qQXhPUzB3TkMweU5WUXlNem94TURvek5Dc3dNem93Ck1HWkFwb0VBQUFBbGRFVllkR1JoZEdVNmJXOWthV1o1QURJd01Ua3RNRFF0TWpWVU1qTTZNVEE2TXpRck1ETTZNREFYSFI0OUFBQUEKR1hSRldIUlRiMlowZDJGeVpRQkJaRzlpWlNCSmJXRm5aVkpsWVdSNWNjbGxQQUFBQUFCSlJVNUVya0pnZ2c9PSIgLz4KPC9zdmc+) !important;
+  background-size: 56px !important;
+  width: 56px !important;
+  margin-right: 4px; 
+  margin-right: 4px; 
+}
+/**************************************************************************************************/
+
+/*************************** Hide menu items ******************************************************/
+.part.titlebar .menubar div.menubar-menu-button[aria-label="Terminal"],
+.part.titlebar .menubar div.menubar-menu-button[aria-label="Debug"]{
+  display: none !important;
+}
+/**************************************************************************************************/
+
+
+/*************************** Hide activity bar items **********************************************/
+.part.activitybar ul.actions-container li:nth-child(3),
+.part.activitybar ul.actions-container li:nth-child(4),
+.part.activitybar ul.actions-container li:nth-child(5){
+  display: none !important;
+}
+/**************************************************************************************************/
+
+/*************************** Remove welcome text and modify style *********************************/
+.monaco-workbench .part.editor > .content div.welcomePageContainer {
+  align-items: flex-start;
+  margin-top: 30px;
+}   
+.monaco-workbench .part.editor > .content .welcomePage .caption,
+.monaco-workbench .part.editor > .content .welcomePage .subtitle {
+  display:none !important;
+}
+.monaco-workbench .part.editor > .content .welcomePage div.title {
+  margin-top: 0px;
+  margin-bottom: 25px;
+  border: none;
+  font-weight: normal;
+  font-size: 3.6em;
+  white-space: nowrap;
+}
+
+.monaco-workbench .part.editor > .content .welcomePage .title:before {
+  content: "DAML Code Editor";
+}
+
+.monaco-workbench .part.editor > .content .welcomePage div.row {
+  margin-top: 0px;
+  padding: 0px;
+  color: rgba(204, 204, 204, 0.7);
+  border: none;
+  font-weight: normal;
+  font-size: 1.5em;
+  max-width: 800px;
+}
+.monaco-workbench .part.editor > .content .welcomePage .row:after {
+  white-space: pre-wrap;
+  content: "Check out the daml examples in the workspace to the left. \
+  You can view definitions, auto complete templates, and much more. \
+  Run interactive tests, called DAML scenarios, by clicking \"Scenario results\" \
+  above the scenario definitions.  \A\
+  \A\
+  \A\
+DAML Studio extends Visual Studio Code with the following DAML-specific features.  \A\
+  \A\
+      \2022  DAML syntax highlighting  \A\
+      \2022  Real-time feedback on parse, name resolution, type-checking \A\
+      \2022  Scenario interpretation errors and viewer for the resulting ledger \A\
+      \2022  Jumping to and peeking at the definition of referenced toplevel functions \A\
+      \2022  Type-information on hover \A\
+      \2022  Renaming of symbols \A\
+      \2022  DAML snippet support \A\
+  \A\
+For more information on DAML please see docs.daml.com. \A\
+  \A\
+Troubleshooting \A\
+      The DAML language server log output is available under the \"Output\" panel (View->Output). \A\
+      Select \"DAML Language Server\" from the dropdown in the panel to see the log.";
+}
+
+.monaco-workbench .part.editor > .content .welcomePage .row .splash
+.monaco-workbench .part.editor > .content .welcomePage .row .commands {
+  display:none !important;
+}
+/****************************************************************************************************/
