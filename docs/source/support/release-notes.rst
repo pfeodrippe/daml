@@ -8,6 +8,7 @@ This page contains release notes for the SDK.
 
 HEAD — ongoing
 --------------
+- Enabling support for Postgres persistence under the Sandbox
 
 0.12.11 - 2019-04-26
 --------------------
