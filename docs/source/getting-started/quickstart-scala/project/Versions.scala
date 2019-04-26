@@ -2,7 +2,15 @@
 // SPDX-License-Identifier: Apache-2.0
 
 object Versions {
-  val sdkVersion: String = sdkVersionFromSysProps().getOrElse("100.12.6")
+
+  val sdkVersion: String = sdkVersionFromSysProps().getOrElse("100.12.11")
+
+  val darFileName: String = "__DAR_FILE_NAME__"
+
+  // TODO: Leo fix it!!!
+  val darFile =
+    new sbt.File(
+      "/home/leos/Projects/daml-experiments/java-codegen-test/dist/java-codegen-test.dar")
 
   println(s"DA sdkVersion: $sdkVersion")
 
@@ -12,5 +20,5 @@ object Versions {
   }
 
   private def sdkVersionFromSysProps(): Option[String] =
-    sys.props.get("DA.sdkVersion").map(_.toString)
+    sys.props.get("DA.sdkVersion")
 }
