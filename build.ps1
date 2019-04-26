@@ -14,7 +14,9 @@ $env:Path='C:\Users\VssAdministrator\dadew\scoop\apps\msys2-20180531\current;D:\
 write-output "Path after: `n`t ${env:PATH}"
 
 write-output "ENV: `n`n"
-${gci env:* | sort-object name}
+gci env:* | sort-object name
+
+$env:BAZEL_VC='c:\'
 
 if (!(Test-Path .\.bazelrc.local)) {
    Set-Content -Path .\.bazelrc.local -Value 'build --config windows'
