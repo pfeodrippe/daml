@@ -9,9 +9,12 @@ $ErrorActionPreference = 'Stop'
 
 write-output "Path before: `n`t ${env:PATH}"
 
-$env:Path='C:\Users\VssAdministrator\dadew\scoop\apps\msys2-20180531\current;D:\a\1\s\dev-env\windows\libexec\..\bin;C:\Users\VssAdministrator\dadew\scoop\shims'
+$env:Path='C:\Users\VssAdministrator\dadew\scoop\apps\msys2-20180531\current;D:\a\1\s\dev-env\windows\libexec\..\bin;C:\Users\VssAdministrator\dadew\scoop\shims;C:\WINDOWS\System32\WindowsPowerShell\v1.0'
 
 write-output "Path after: `n`t ${env:PATH}"
+
+write-output "ENV: `n`n"
+${gci env:* | sort-object name}
 
 if (!(Test-Path .\.bazelrc.local)) {
    Set-Content -Path .\.bazelrc.local -Value 'build --config windows'
