@@ -13,10 +13,10 @@ Generated with:
 git -C rules_haskell diff $(git -C rules_haskell  merge-base master HEAD) > bazel_tools/haskell-win-sys-includes.patch
 
 diff --git a/haskell/CROSSTOOL.windows b/haskell/CROSSTOOL.windows
-index ae16776..022e15b 100644
+index ae16776..02bab0c 100644
 --- a/haskell/CROSSTOOL.windows
 +++ b/haskell/CROSSTOOL.windows
-@@ -30,7 +30,12 @@ toolchain {
+@@ -30,7 +30,15 @@ toolchain {
    tool_path { name: "objcopy" path: "mingw/bin/objcopy" }
    tool_path { name: "objdump" path: "mingw/bin/objdump" }
    tool_path { name: "strip" path: "mingw/bin/strip" }
@@ -26,6 +26,9 @@ index ae16776..022e15b 100644
 +  cxx_builtin_include_directory: "mingw/include"
 +  cxx_builtin_include_directory: "mingw/include/c++/7.2.0"
 +  cxx_builtin_include_directory: "mingw/x86_64-w64-mingw32/include"
++  cxx_builtin_include_directory: "C:/users/vssadministrator/_bazel_vssadministrator/w3d6ug6o/execroot/com_github_digital_asset_daml/external/io_tweag_rules_haskell_ghc_windows_amd64/mingw"
++  cxx_builtin_include_directory: "C:/users/vssadministrator/_bazel_vssadministrator/w3d6ug6o/execroot/com_github_digital_asset_daml/external/io_tweag_rules_haskell_ghc_windows_amd64/mingw/include"
++  cxx_builtin_include_directory: "C:/users/vssadministrator/_bazel_vssadministrator/w3d6ug6o/execroot/com_github_digital_asset_daml/external/io_tweag_rules_haskell_ghc_windows_amd64/mingw/include/c++/7.2.0"
    cxx_flag: "-std=gnu++0x"
 
    # Needed to prevent Bazel from complaining about undeclared inclusions of
