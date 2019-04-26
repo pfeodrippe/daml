@@ -23,6 +23,7 @@ import io.grpc.BindableService
 import io.grpc.netty.NettyServerBuilder
 import io.grpc.protobuf.services.ProtoReflectionService
 import io.netty.channel.nio.NioEventLoopGroup
+import io.netty.handler.ssl.SslContext
 import io.netty.util.concurrent.DefaultThreadFactory
 import org.slf4j.LoggerFactory
 
@@ -34,6 +35,7 @@ object Server {
 
   def apply(
       serverPort: Int,
+      sslContext: Option[SslContext],
       indexService: IndexService,
       writeService: WriteService,
       tsb: TimeServiceBackend /* FIXME(JM): Remove */ )(
@@ -52,6 +54,7 @@ object Server {
     new Server(
       serverEsf,
       serverPort,
+      sslContext,
       createServices(indexService, writeService, tsb),
     )
   }
@@ -164,6 +167,7 @@ object Server {
 final class Server private (
     serverEsf: AkkaExecutionSequencerPool,
     serverPort: Int,
+    sslContext: Option[SslContext],
     services: Iterable[BindableService])(implicit materializer: ActorMaterializer)
     extends AutoCloseable {
   private val logger = LoggerFactory.getLogger(this.getClass)
@@ -182,6 +186,14 @@ final class Server private (
       .workerEventLoopGroup(serverEventLoopGroup)
       .permitKeepAliveTime(10, TimeUnit.SECONDS)
       .permitKeepAliveWithoutCalls(true)
+
+    sslContext
+      .fold {
+        logger.info("Starting plainText server")
+      } { sslContext =>
+        logger.info("Starting TLS server")
+        val _ = builder.sslContext(sslContext)
+      }
 
     val server = services.foldLeft(builder)(_ addService _).build
 
